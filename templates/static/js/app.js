@@ -46,7 +46,7 @@ function buildMetadata(sample) {
 
     // Use `Object.entries` to add each key and value pair to the panel
     Object.entries(metadata).forEach(([key,value]) => {
-        subjectmetadata.append("h6").text(`${key.toUpperCase()} : ${value}`);
+        subjectmetadata.append("h6").text(`${key} : ${value}`);
       });
     });
     console.log("In the End of buildMetadata(sample) function");
