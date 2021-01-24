@@ -30,7 +30,7 @@ function optionChanged(newSample) {
   buildCharts(newSample);
   buildMetadata(newSample);
   getGauge(newSample);
-  console.log("In the End of optionChanged(newSample) function");
+  console.log("In the End of optionChanged() function");
   };
 // Complete the following function that builds the metadata panel
 function buildMetadata(sample) {
@@ -49,7 +49,7 @@ function buildMetadata(sample) {
         subjectmetadata.append("h6").text(`${key} : ${value}`);
       });
     });
-    console.log("In the End of buildMetadata(sample) function");
+    console.log("In the End of buildMetadata() function");
 };
 // Initialize the dashboard
 init();
@@ -122,10 +122,8 @@ function buildCharts(sample) {
           },
       width: 460,
       height: 400,
-      //margin: { t: 30, r: 15, l: 15, b: 5 },
-      //paper_bgcolor: "lavender",
       margin: { t: 30, r: 15 , l: 15 , b: 50},
-      //font: { color: "darkblue", family: "Arial" }
+      font: { color: "darkblue", family: "Arial" }
     };
     // Render the plot to the div tag with id 'bar'
     Plotly.newPlot("bar", barData, chartLayout);
@@ -182,21 +180,20 @@ function buildCharts(sample) {
        //margin: {l: 50, r: 10, t: 30},
         height: 500,
         width: 1200,
-       // paper_bgcolor: "lavender",
         font: { color: "darkblue", family: "Arial" }
     };
        // Render the plot to the div tag with id 'bubble'
       Plotly.newPlot("bubble",bubbleData,bubbleLayout);
 
     });
-    console.log("In the End of buildCharts(sample) function");
+    console.log("In the End of buildCharts() function");
 };
 
 // Gauge chart
 function getGauge(sample) {
 // Build a Gauge Chart using the sample data
 
-// Use `d3.json` to fetch each sample data, assign it to a variable, and plot it
+// Use `d3.json` to fetch each metadata data, assign it to a variable, and plot it
 d3.json("./data/samples.json").then((data) => {
   var plotDataset = data.metadata.filter(sampleObj => sampleObj.id.toString() === sample)[0];
   console.log("plotDataset=", plotDataset);
@@ -250,4 +247,5 @@ d3.json("./data/samples.json").then((data) => {
      // Render the plot to the div tag with id 'gauge'
     Plotly.newPlot('gauge', data, layout);
   });
+  console.log("In the End of getGauge() function");
 }
