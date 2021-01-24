@@ -22,21 +22,20 @@ In this task samples.json file was read by using the D3 library, and a horizonta
 A bubble chart was created on the following values
 
 <code> otu_ids </code> for the x values. </br>
-<mark> sample_values </mark> for the y values. </br>
-<mark> sample_values </mark> for the marker size. </br>
-<mark> otu_ids </mark> for the marker colors. </br>
-<mark> otu_labels </mark> for the text values. </br>
+<code> sample_values </code> for the y values. </br>
+<code> sample_values </code> for the marker size. </br>
+<code> otu_ids </code> for the marker colors. </br>
+<code> otu_labels </code> for the text values. </br>
 
 ![Bubble Chart Image](./templates/Images/bubblechart.png)
 
 ### Demographic Information
 A box is created to display an individual's demographic information from the sample metadata.
 
-hw
+![Demographic Info Image](./templates/Images/Demographic-Info.JPG)
 
 ### Gauge Chart
 A Gauge Chart was created to plot the weekly washing frequency of the individual.
-
 
 ![Weekly Washing Frequency Gauge Image](./templates/Images/gauge.png)
 
