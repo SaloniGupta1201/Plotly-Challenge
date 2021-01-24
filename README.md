@@ -14,7 +14,7 @@ Source:The Public Science Lab
 Use the interactive charts below to explore the dataset. Select a test subject ID number in a dropdown menu to see the relative sample results.
 
 ### Plotly - Bar Chart
-In this task samples.json file was read by using the D3 library, and a horizontal bar chart with a dropdown menu was created, and displayed on the top 10 OTUs found in that individual. The appropriate values(sample_values), lables(otu_ids),and hover text(otu_labels ) assigned to the bar chart.
+In this task [samples.json](./templates/data/samples.json) file was read by using the D3 library, and a horizontal bar chart with a dropdown menu was created, and displayed on the top 10 OTUs found in that individual. The appropriate values <code> (sample_values) </code>, <code> lables(otu_ids) </code>,and hover text <code>(otu_labels )</code> assigned to the bar chart.
 
 ![bar Chart Image](./templates/Images/barchart.png)
 
