@@ -21,11 +21,11 @@ In this task samples.json file was read by using the D3 library, and a horizonta
 ### Plotly - Bubble Chart
 A bubble chart was created on the following values
 
-otu_ids for the x values.
-sample_values for the y values.
-sample_values for the marker size.
-otu_ids for the marker colors.
-otu_labels for the text values.
+<mark> otu_ids </mark> for the x values. </br>
+<mark> sample_values </mark> for the y values. </br>
+<mark> sample_values </mark> for the marker size. </br>
+<mark> otu_ids </mark> for the marker colors. </br>
+<mark> otu_labels </mark> for the text values. </br>
 
 ![Bubble Chart Image](./templates/Images/bubblechart.png)
 
