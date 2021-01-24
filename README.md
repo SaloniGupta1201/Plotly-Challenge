@@ -16,7 +16,7 @@ Use the interactive charts below to explore the dataset. Select a test subject I
 ### Plotly - Bar Chart
 In this task samples.json file was read by using the D3 library, and a horizontal bar chart with a dropdown menu was created, and displayed on the top 10 OTUs found in that individual. The appropriate values(sample_values), lables(otu_ids),and hover text(otu_labels ) assigned to the bar chart.
 
-![bar Chart Image](./templates/Images/bar chart.png)
+![bar Chart Image](./templates/Images/barchart.png)
 
 ### Plotly - Bubble Chart
 A bubble chart was created on the following values
@@ -27,7 +27,7 @@ sample_values for the marker size.
 otu_ids for the marker colors.
 otu_labels for the text values.
 
-![Bubble Chart Image](./templates/Images/bubble chart.png)
+![Bubble Chart Image](./templates/Images/bubblechart.png)
 
 ### Demographic Information
 A box is created to display an individual's demographic information from the sample metadata.
