@@ -42,7 +42,7 @@ A Gauge Chart was created to plot the weekly washing frequency of the individual
 Over All layout
 The dashboard looks as follows:
 
-
+![Dashboard](./templates/Images/Bellybutton-Biodiversity.gif)
 
 ### Deployment
 This app is deployed public on GitHub page, click the following link to see how it looks like [Belly Button Biodiversity Dashboard - by Saloni Gupta](https://salonigupta1201.github.io/Plotly-Challenge/templates/index.html)
